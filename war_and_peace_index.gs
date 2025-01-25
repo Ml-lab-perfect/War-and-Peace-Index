@@ -33,8 +33,8 @@ function generateWarAndPeaceIndex() {
     const headlines = items.map(item => item.getChild("title").getText());
 
     // Analyzing headlines
-    const warKeywords = ["war", "conflict", "attack", "threat"];
-    const peaceKeywords = ["peace", "resolution", "agreement", "truce"];
+    const warKeywords = ["*****"]; //Blurred: Keywords
+    const peaceKeywords = ["*****"]; //Blurred: Keywords
 
     let warCount = 0, peaceCount = 0;
     headlines.forEach(headline => {
